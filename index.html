@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <link rel="icon" href="/images/cat.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css//main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.8/inputmask.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+       
+            <header class="header"> 
+                <div class="container">
+                    <div class="header__inner">
+                <img src="./images//logo.svg" alt="" class="logo">
+                <ul class="list">
+                    <li class="list__item"><a class="list__link" href="#order">ORDER</a></li>
+                    <li class="list__item"><a class="list__link" href="#about">ABOUT</a></li>
+                    <li class="list__item"><a class="list__link" href="#results">RESULTS</a></li>
+                </ul>
+                <img src="./images/cloud.png" alt="" class="cloud">
+                <img src="./images/burger-menu.svg" alt="" class="burger">
+                <img src="./images/close.svg" alt="" class="close">
+            </div></div>
+            </header> 
+        
+            <div class="descr__block" >
+                <div class="container">
+                    <div class="block__title">
+                <h1 class="descr__block-title">Pet Naturals of Vermont, Calming, For Cats</h1></div>
+                <div class="descr__block-wrap">
+                    <div class="descr__block-left">
+                        <h3>Your cat deserves the best pet supplement the world has to offer. 
+                            That's what's in the package. </h3>
+                        <ul class="descr__block-list">
+                            <li class="descr__block-item">
+                                <img src="./images/iconSlid.png" alt="">
+                                <h6>Features a patented calming blend</h6>
+                            </li>
+                            <li class="descr__block-item">
+                                <img src="./images/iconSlid.png" alt="">
+                                <h6>Doesn’t contain herbal ingredients</h6>
+                            </li>
+                            <li class="descr__block-item">
+                                <img src="./images/iconSlid.png" alt="">
+                                <h6>Helps manage everyday stress</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="cat__img" src="/images/cats.png" alt="">
+                    <div class="descr__block-right">
+                        <form class="form" action="submit" id="order">
+                            <h1>TIME LEFT</h1>
+                            <h2 class="time" id="timer"></h2>
+                            <h3 class="discount">120uah <span>60uah</span></h3>
+                            <img src="/images/restangle.png" alt="">
+                            <div class="input__block">   <input class="input" type="text" placeholder="Name"></div>
+                            <div class="input__block input__block-tel">   <input class="input" type="tel" id="phone" placeholder="+38(0__)___-__-__"></div>
+                            <button class="btn__order">ORDER</button>
+                            <span class="order__data">Order date: <span id="date">17.11.2021</span></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="advantages__block" id="about">
+                <h1 class="advantages__title">From the manufacturer</h1>
+            <div class="container">
+                <div class="advantages__block-wrap">
+                    <div class="advantages__block-items">
+                        <div class="advantages__block-item">
+                            <div class="img__block"><img src="/images/sleepcat.png" alt=""></div>
+                            <div class="advantages__block-descr">
+                                <h1>Keep Calm and Carry On</h1>
+                                <p>Are you searching for a better way to ease your pet’s separation anxiety or stress? Calming chews help relieve
+                                    pet stress without corn, wheat or artificial ingredients. </p>
+                            </div>
+                        </div>
+                        <div class="advantages__block-item">
+                            <div class="img__block"><img src="/images/img2.png" alt=""></div>
+                            <div class="advantages__block-descr">
+                                <h1>Peace of Mind</h1>
+                                <p>Pet Naturals of Vermont’s research-backed formula makes it safe to double or triple the amount in times of added stress. </p>
+                            </div>
+                        </div>
+                        <div class="advantages__block-item">
+                            <div class="img__block"><img src="/images/img3.png" alt=""></div>
+                            <div class="advantages__block-descr">
+                                <h1>More than a Tasty Treat</h1>
+                                <p>Don’t let its satisfying chicken liver flavor fool you. Technically, Calming isn’t a treat but it sure tastes like one. Reward your best buddy with a Calming chew.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="best__usesBlock" id="results">
+        <h1 class=" best__usesBlock-title">Best Uses for Calming Chews</h1>
+        <div class="container">
+            <div class="best__usesBlock-inner">
+                <div class="custom-box">
+                    <p>Car rides. Vet visits. Thunderstorms. Boarding. Parties. These are just a handful of times when Calming chews may come in handy. Does your dog hate to be left home alone? Does your cat love hiding under the bed? Serve up a Calming chew to help soothe your furry pal’s anxiety and make your life easier, too!</p>
+                    <p class="med"><strong>For Best Results:</strong></p>
+                    <p>We recommend administering Calming chews 30 minutes prior to a stressful event. The 30-minute activation period gives you a chance to increase dosage if you’re not seeing expected results. Calming is safe for unique stress inducing events and for long-term use to help manage everyday stress.</p>
+                </div>
+                <div class="imgBlock"><img class="imgCat" src="/images/photo_cat.png" alt=""></div>                
+            </div>
+        </div>
+      </div>
+       
+    </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
