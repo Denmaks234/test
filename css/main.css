@@ -69,7 +69,7 @@ ul{
     z-index: -89;
 }
 .descr__block{
-    background: url('/images/bg1.png');
+    background: url('../../images/bg1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +227,7 @@ ul{
 
 .input__block::before{
     content: '';
-    background: url('/images/iconSlid2.svg');
+    background: url('../../images/iconSlid2.svg');
     display: inline;
     width: 24px;
     height: 24px;
@@ -356,7 +356,7 @@ margin-right: 85px;
 }
 .best__usesBlock{
     padding-top: 100px;
-    background: url('/images/bg3_block.png');
+    background: url('../../images/bg3_block.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
